@@ -1,0 +1,37 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* html {
+  scroll-behavior: smooth;
+} */
+
+section {
+  width: 100%;
+  height: 70vh;
+}
+
+section:nth-child(odd) {
+  background: #d12525;
+}
+
+.btnToTop svg {
+  width: 44px;
+  height: 44px;
+  padding: 9px;
+  border-radius: 7px;
+  background: #6e6e6e;
+  fill: #c2c2c2;
+  position: fixed;
+  bottom: 2rem;
+  right: 2rem;
+  transition: all .1s ease-in-out;
+  cursor: pointer;
+}
+
+.btnToTop svg:hover {
+  background: #222222;
+  fill: #d1d1d1;
+}
